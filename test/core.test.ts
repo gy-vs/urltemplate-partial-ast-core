@@ -1,0 +1,1 @@
+import {expect,it} from 'vitest';import {expand} from '../src/index.js';it('expands a value',()=>expect(expand('/{id}',{id:'a b'})).toBe('/a%20b'));
